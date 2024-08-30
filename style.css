@@ -1,0 +1,69 @@
+/* Definindo o estilo de todo o corpo da página */
+body {
+    background-image: url('img/v748-toon-69.jpg'); /* Define a imagem de fundo para o corpo da página.  */
+    background-repeat: no-repeat;  /* Evita que a imagem de fundo se repita, garantindo que ela apareça apenas uma vez. */
+    background-size: cover;  /* Redimensiona a imagem de fundo para cobrir todo o corpo da página, mesmo que parte da imagem seja cortada. */
+    background-position: center;  /* Centraliza a imagem de fundo na página. */
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /* Define a fonte padrão para o texto do corpo da página. */
+    font-size: 18px; /* Define o tamanho da fonte padrão. */
+    margin: 10; /* Define uma margem externa de 10 pixels ao redor do corpo da página. */
+    padding: 10; /* Define um preenchimento interno de 10 pixels dentro do corpo da página. */
+}
+
+/* Estilizando um título */
+h1 {
+    color: #f30e0e; /* Define a cor do texto do título principal (h1). */
+    text-align: center; /* Centraliza o texto do título principal horizontalmente. */
+}
+
+/* Estilizando um subtítulo */
+h4 {
+    color: #e80d77; /* Define a cor do texto do subtítulo (h4). */
+    text-align: left; /* Alinha o texto do subtítulo à esquerda. */
+}
+
+/* Estilizando a tag <div> */
+    div {
+    color: #147dee; /* Define a cor do texto dentro da `div`. */
+    border: 5px double; /* Define uma borda dupla de 5 pixels ao redor da `div`. */
+    margin: auto; /* Centraliza a `div` horizontalmente. */
+    width: 50%; /* Define a largura da `div` como 50% da largura do seu contêiner pai. */
+    padding: 10px; /* Define um preenchimento interno de 10 pixels dentro da `div`. */
+}
+
+/* Estilizando o campo input */
+input {
+    color: #147dee; /* Define a cor do texto dentro dos campos. */
+    border: 5px double; /* Define uma borda dupla de 5 pixels ao redor dos campos. */
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /* Define a fonte para o texto dentro dos campos. */
+    font-size: 16px; /* Define o tamanho da fonte do texto dentro dos campos de entrada. */
+    font-weight: bold; /* Define o texto dentro dos campos de entrada como negrito. */
+    margin: auto; /* Centraliza os campos de entrada horizontalmente. */
+    width: 50%; /* Define a largura dos campos de entrada como 50% da largura. */
+    padding: 10px; /* Define um preenchimento interno de 10 pixels dentro dos campos de entrada. */
+}
+
+/* Estilizando os botões */
+button {
+    font-family: Verdana, Geneva, sans-serif; /* Define a fonte para o texto dos botões. */
+    font-size: 14px; /* Define o tamanho da fonte dos botões. */
+    border-radius: 5px; /* Define bordas arredondadas para os botões com um raio de 5 pixels. */
+    padding-left: 10px; /* Define um preenchimento interno à esquerda do texto do botão de 10 pixels. */
+    padding-right: 10px; /* Define um preenchimento interno à direita do texto do botão de 10 pixels. */
+    padding-top: 5px; /* Define um preenchimento interno na parte superior do botão de 5 pixels. */
+    padding-bottom: 5px; /* Define um preenchimento interno na parte inferior do botão de 5 pixels. */
+    color: #ffffff; /* Define a cor do texto dos botões. */
+    background-color: #4CAF50; /* Define a cor de fundo dos botões. */
+    outline: none; /* Remove o contorno padrão dos botões quando focados. */
+    border: none; /* Remove qualquer borda ao redor dos botões. */
+    cursor: pointer; /* Muda o cursor para um ponteiro (mãozinha) quando o usuário passa o mouse sobre o botão, indicando que ele é clicável. */
+    display: inline-block; /* Faz com que os botões sejam exibidos como elementos inline-block, permitindo que eles se comportem como elementos inline, mas com a capacidade de definir altura e largura. */
+    text-decoration: none; /* Remove qualquer sublinhado ou outra decoração de texto dos botões. */
+    transition: .4s; /* Define uma transição suave de 0,4 segundos para qualquer mudança de estilo dos botões (como a cor de fundo ao passar o mouse). */
+}
+
+/* Estilizando os botões quando o mouse estiver sobre ele */
+button:hover {
+    color: #ffffff; /* Mantém a cor do texto dos botões como branca ao passar o mouse sobre eles. */
+    background-color: #2196F3; /* Altera a cor de fundo dos botões ao passar o mouse sobre eles. */
+}

@@ -1,7 +1,7 @@
 /* Definindo o estilo de todo o corpo da página */
 body {
     background-color: gainsboro;
-    background-image: url('img/rm380-11.jpg'); /* Define a imagem de fundo para o corpo da página.  */
+    background-image: url('img/872.jpg'); /* Define a imagem de fundo para o corpo da página.  */
     background-repeat: no-repeat;  /* Evita que a imagem de fundo se repita, garantindo que ela apareça apenas uma vez. */
     background-size: cover;  /* Redimensiona a imagem de fundo para cobrir todo o corpo da página, mesmo que parte da imagem seja cortada. */
     background-position: center;  /* Centraliza a imagem de fundo na página. */
